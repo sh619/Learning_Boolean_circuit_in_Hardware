@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mnist_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mnist_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="500.001 ns"></ZoomEndTime>
+      <Cursor1Time time="293.997 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="153"></NameColumnWidth>
+      <ValueColumnWidth column_width="163"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/mnist_tb/pl/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/x" type="array">
+      <obj_property name="ElementShortName">x[783:0]</obj_property>
+      <obj_property name="ObjectShortName">x[783:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/y" type="logic">
+      <obj_property name="ElementShortName">y</obj_property>
+      <obj_property name="ObjectShortName">y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/result" type="logic">
+      <obj_property name="ElementShortName">result</obj_property>
+      <obj_property name="ObjectShortName">result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/p" type="array">
+      <obj_property name="ElementShortName">p[783:0]</obj_property>
+      <obj_property name="ObjectShortName">p[783:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/up_p" type="array">
+      <obj_property name="ElementShortName">up_p[783:0]</obj_property>
+      <obj_property name="ObjectShortName">up_p[783:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/vec" type="array">
+      <obj_property name="ElementShortName">vec[783:0]</obj_property>
+      <obj_property name="ObjectShortName">vec[783:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/num" type="array">
+      <obj_property name="ElementShortName">num[9:0]</obj_property>
+      <obj_property name="ObjectShortName">num[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/num_p" type="array">
+      <obj_property name="ElementShortName">num_p[9:0]</obj_property>
+      <obj_property name="ObjectShortName">num_p[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mnist_tb/pl/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+</wave_config>

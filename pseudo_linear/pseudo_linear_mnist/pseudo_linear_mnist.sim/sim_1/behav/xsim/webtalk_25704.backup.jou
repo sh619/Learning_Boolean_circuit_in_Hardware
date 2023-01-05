@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Wed Jan  4 15:31:30 2023
+# Process ID: 25704
+# Current directory: D:/Imperial/FYP/pseudo_linear/pseudo_linear_mnist/pseudo_linear_mnist.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Imperial/FYP/pseudo_linear/pseudo_linear_mnist/pseudo_linear_mnist.sim/sim_1/behav/xsim/xsim.dir/mnist_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Imperial/FYP/pseudo_linear/pseudo_linear_mnist/pseudo_linear_mnist.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Imperial/FYP/pseudo_linear/pseudo_linear_mnist/pseudo_linear_mnist.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Imperial/FYP/pseudo_linear/pseudo_linear_mnist/pseudo_linear_mnist.sim/sim_1/behav/xsim/xsim.dir/mnist_tb_behav/webtalk/xsim_webtalk.tcl -notrace
