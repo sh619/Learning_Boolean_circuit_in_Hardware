@@ -33,24 +33,24 @@ for i in range(x_test.shape[0]):
     test_image_flattened[i] = x_test[i].flatten()
 
 # Save the result to a txt file
-np.savetxt('train.txt', train_image_flattened, fmt="%s",delimiter=",")
-np.savetxt('test.txt', test_image_flattened, fmt='%s',delimiter=",")
+# np.savetxt('train.txt', train_image_flattened, fmt="%s",delimiter=",")
+# np.savetxt('test.txt', test_image_flattened, fmt='%s',delimiter=",")
 
-file = open("train.txt","r")
-lines = file.readlines()
-with open("train.txt" , "w") as f:
-    for line in lines :
-        s= line.split(",")
-        for i in range(len(s)):
-            f.write(s[i])
+# file = open("train.txt","r")
+# lines = file.readlines()
+# with open("train.txt" , "w") as f:
+#     for line in lines :
+#         s= line.split(",")
+#         for i in range(len(s)):
+#             f.write(s[i])
 
-file = open("test.txt","r")
-lines = file.readlines()
-with open("test.txt" , "w") as f:
-    for line in lines :
-        s= line.split(",")
-        for i in range(len(s)):
-            f.write(s[i])
+# file = open("test.txt","r")
+# lines = file.readlines()
+# with open("test.txt" , "w") as f:
+#     for line in lines :
+#         s= line.split(",")
+#         for i in range(len(s)):
+#             f.write(s[i])
 
 # Add the label to training data and test data
 print(train_image_flattened.shape)

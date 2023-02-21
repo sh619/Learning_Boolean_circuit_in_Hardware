@@ -32,8 +32,8 @@ module mnist_tb();
         //instantiate the design
         pseudo_linear pl(
             .clk(clk),
-            .x(x),
-            .y(y),
+            //.x(x),
+            //.y(y),
             .rst_n(rst_n),
             .result(result)
         );
@@ -84,6 +84,7 @@ task Read_test_data();
     while (!$feof(fd)) begin
         scan_file = $fscanf(fd, "%b\n", captureData);// Read a single line into variable "line"
             x = i;
+            y = 1'bx;
             i=i+1;
             if(result == captureData[0]) begin
                 accuracy = accuracy+1;
@@ -104,7 +105,7 @@ endtask
 
     initial begin
         initial_reset();
-        Read_train_data();
+        #10;
         // Read_test_data();
         // x=5'b10001;
         // #20
@@ -112,12 +113,5 @@ endtask
         // y=0;
     end
 
-    initial begin
-        initial_reset();
-        #10;
-        Read_train_output();
-        Read_test_data();
-        
-    end
 
 endmodule
