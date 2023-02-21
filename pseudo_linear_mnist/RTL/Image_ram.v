@@ -3,7 +3,7 @@
 module Image_RAM 
 #(
     parameter ADDR_WIDTH = 14,
-    parameter DATA_WIDTH = 784,
+    parameter DATA_WIDTH = 785,
     parameter DEPTH = 16384
 )
 (clk, we, en, addr, data_in, dout);
@@ -17,7 +17,7 @@ output [DATA_WIDTH-1:0] dout;
 reg [DATA_WIDTH-1:0] dout;
 
 initial begin
-    $readmemb("train.txt", RAM);
+    $readmemb("mnist_train.mem", RAM);
 end
 
 always @(posedge clk)
